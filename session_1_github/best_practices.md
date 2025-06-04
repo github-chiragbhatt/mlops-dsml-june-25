@@ -1,4 +1,5 @@
-# Best Practices for Object-Oriented Programming - small change
+# Best Practices for Object-Oriented Programming - small change - test1
+Today is a beautiful day!
 
 ## 1. SOLID Principles
 - Single Responsibility Principle
