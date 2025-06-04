@@ -1,14 +1,14 @@
 import time
 import random
 
-def merge_sort(arr):
+def merge_sort_v1(arr):
 	"""Implement merge sort algorithm"""
 	if len(arr) <= 1:
 		return arr
 	
 	mid = len(arr) // 2
-	left = merge_sort(arr[:mid])
-	right = merge_sort(arr[mid:])
+	left = merge_sort_v1(arr[:mid])
+	right = merge_sort_v1(arr[mid:])
 	
 	return merge(left, right)
 
@@ -62,8 +62,8 @@ if __name__ == "__main__":
 	print()
 	
 	# Merge Sort
-	merge_sorted = merge_sort(sample_data.copy())
-	print("Merge Sort:", merge_sorted)
+	merge_sort_v1ed = merge_sort_v1(sample_data.copy())
+	print("Merge Sort:", merge_sort_v1ed)
 	
 	# Insertion Sort
 	insertion_sorted = insertion_sort(sample_data.copy())
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 	
 	# Merge Sort timing
 	start = time.time()
-	merge_sort(large_data.copy())
+	merge_sort_v1(large_data.copy())
 	print(f"Merge Sort: {time.time() - start:.4f} seconds")
 	
 	# Insertion Sort timing
