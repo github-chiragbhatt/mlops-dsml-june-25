@@ -45,4 +45,4 @@ CMD ["python", "-m", "flask", "--app", "hello.py", "run", "--host=0.0.0.0", "--p
 
 #docker image tag mark2:latest shivam13juna/example2-docker:latest
 
-https://hub.docker.com/r/shivam13juna/june11-mlops
+#https://hub.docker.com/r/shivam13juna/june11-mlops
