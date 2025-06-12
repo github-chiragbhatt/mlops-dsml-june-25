@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "091cb7e3-b4d0-4188-999a-cd1c71738d1a",
+		"name": "dsml_june_2025",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13079532"
+	},
+	"item": [
+		{
+			"name": "sample http request",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.google.com",
+					"host": [
+						"www",
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get request flask",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/hello?name=Shivam",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"hello"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Shivam"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Flask Post request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \"Gender\": \"Male\",\n   \"Married\": \"Unmarried\",\n   \"Credit_History\": \"Cleared Debts\",\n   \"ApplicantIncome\": 50000, \n   \"LoanAmount\": 500000000\n   \n   }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://a9f7-183-83-147-242.ngrok-free.app/predict",
+					"protocol": "https",
+					"host": [
+						"a9f7-183-83-147-242",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
