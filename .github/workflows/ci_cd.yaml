@@ -35,7 +35,7 @@ jobs:
                     pytest
 
     job2:
-        needs: job1  # This job will run after job1 completes successfully
+        needs: job1  # This job will run after job1 completes successfully  [lint, test-unit]
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
