@@ -67,10 +67,17 @@ def index():
 '''
 
 
+#@pancakes.route('/hello', methods=['GET'])
+#def hello_name():
+#	name = request.args.get('name', 'World')
+#	return {"message": f"Hello, {name}!"}
+
 @pancakes.route('/hello', methods=['GET'])
-def hello_name():
-	name = request.args.get('name', 'World')
-	return {"message": f"Hello, {name}!"}
+def hello():
+	"""
+	A simple endpoint that returns a greeting message.
+	"""
+	return {"message": "Hello, World!"}
 
 # sample url can e like this:
 # http://localhost:5000/hello?name=John
