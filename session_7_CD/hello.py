@@ -60,7 +60,7 @@ def index():
 <body>
   <div class="content">
 	<div class="title">Welcome to CI-CD!</div>
-	<div class="subtitle">Let's learn how to create automate deployment for ECS application.</div>
+	<div class="subtitle">Let's learn how to create automate deployment for ECS application, version 2.</div>
   </div>
 </body>
 </html>
