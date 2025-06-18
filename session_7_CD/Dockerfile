@@ -6,14 +6,14 @@ FROM python:3.10-slim
 WORKDIR /flask-loan-app
 
 
-COPY session_7_CD/requirements.txt /flask-loan-app/requirements.txt
+COPY artefacts/requirements.txt /flask-loan-app/requirements.txt
 # This copies the requirements.txt file from the host to the container
 
 # Install the dependencies
 RUN pip install -r /flask-loan-app/requirements.txt
 # RUN executes only once when the image is built
 
-COPY session_7_CD/ /flask-loan-app/
+COPY . /flask-loan-app/
 
 CMD ["python", "-m", "flask", "--app", "hello.py", "run", "--host=0.0.0.0", "--port=8000"]
 
