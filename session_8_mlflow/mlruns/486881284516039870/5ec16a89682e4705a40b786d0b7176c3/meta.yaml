@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shivam13juna/Documents/scaler/mlops/june_2025/mlops-dsml-june-2025/session_8_mlflow/mlruns/486881284516039870/5ec16a89682e4705a40b786d0b7176c3/artifacts
+end_time: 1750386014587
+entry_point_name: ''
+experiment_id: '486881284516039870'
+lifecycle_stage: active
+run_id: 5ec16a89682e4705a40b786d0b7176c3
+run_name: hyperparameter_run_7
+run_uuid: 5ec16a89682e4705a40b786d0b7176c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750386013016
+status: 3
+tags: []
+user_id: shivam13juna

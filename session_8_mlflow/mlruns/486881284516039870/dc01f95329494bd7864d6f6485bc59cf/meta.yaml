@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shivam13juna/Documents/scaler/mlops/june_2025/mlops-dsml-june-2025/session_8_mlflow/mlruns/486881284516039870/dc01f95329494bd7864d6f6485bc59cf/artifacts
+end_time: 1750386564451
+entry_point_name: ''
+experiment_id: '486881284516039870'
+lifecycle_stage: active
+run_id: dc01f95329494bd7864d6f6485bc59cf
+run_name: KNN
+run_uuid: dc01f95329494bd7864d6f6485bc59cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750386562848
+status: 3
+tags: []
+user_id: shivam13juna

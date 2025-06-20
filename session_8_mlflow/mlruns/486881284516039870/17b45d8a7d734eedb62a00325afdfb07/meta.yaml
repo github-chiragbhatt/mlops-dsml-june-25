@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shivam13juna/Documents/scaler/mlops/june_2025/mlops-dsml-june-2025/session_8_mlflow/mlruns/486881284516039870/17b45d8a7d734eedb62a00325afdfb07/artifacts
+end_time: 1750385554029
+entry_point_name: ''
+experiment_id: '486881284516039870'
+lifecycle_stage: active
+run_id: 17b45d8a7d734eedb62a00325afdfb07
+run_name: Loan_Status_Prediction_Run
+run_uuid: 17b45d8a7d734eedb62a00325afdfb07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750385553848
+status: 3
+tags: []
+user_id: shivam13juna
